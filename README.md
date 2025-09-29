@@ -3,7 +3,7 @@
 # Task-4: Sentiment Analysis on Social Media Data
 
 ## Project Description
-Analyzed the Titanic dataset by cleaning missing values and exploring key features. Conducted EDA to identify trends and relationships affecting passenger survival, and presented findings through clear visualizations for better interpretation.
+Analyzed recent social media posts to uncover public opinions and trends. Cleaned and processed the data, then classified posts as positive, negative, or neutral. Visualizations highlight key insights and overall sentiment patterns.
 
 This project analyzes social media posts to understand public opinion and attitudes toward a given topic.
 
@@ -14,58 +14,50 @@ It is part of my **Prodigy Internship Data Science - Task 4**.
 ## Technologies Used
 - Python
 - Pandas
-- NumPy
+- NLTK / TextBlob
 - Matplotlib
 - Seaborn
-- Scikit-learn
+- WordCloud
 
 ---
 
 ## Dataset
 Dataset in Tabular form
 
-[titanic_dataset.csv](https://1drv.ms/x/c/3caa0aa167fc94a7/ES-49iNCNFtKgXoPGdXl7QUBN-oggYfADWZXQDeTE5Zfcw?e=g88Kbs)
+[socialmedia_dataset.csv](https://1drv.ms/x/c/3caa0aa167fc94a7/EVAc_F3oUzJGviUOaqgW0F8BgTUD62U8cxlRViOLxf9cFw?e=xLT4Cg)
 
 ---
 
 ## Steps in Project
 1. Load the dataset
-2. Perform data cleaning (missing values, duplicates, info check)
-3. Generate descriptive statistics
-4. Visualize distributions, correlations, and pairplots
-5. Draw insights
+2. Cleaning of Data
+3. Exploratory Data Analysis (EDA)
+4. Visualization
+5. Insights
 
 ---
 
 ## Code
 Jupyter Notebook
 
-[Prodigy Task2](https://1drv.ms/w/c/3caa0aa167fc94a7/EQTR-M0usi1EnZY1bf3X5SkBiku-N66SDqJ0eNELgjv4LQ?e=FgPkle)
+[Prodigy Task4](https://1drv.ms/w/c/3caa0aa167fc94a7/ER-KIzzRxdVIo9k7kvLEHlIB-PrmWDgFHM5dRiObfZiO7g?e=4zy8TT)
 
 ---
 
 ## Visualizations
 
-### 🔹Age Distribution
-[Age Distribution](https://1drv.ms/i/c/3caa0aa167fc94a7/EYW9gSMrVaVIq_j8RHCAlYABg5x3uLkqZgUUp7sI2zubow?e=WMOldh)
+### 🔹Sentiment Analysis
+[Sentiment Analysis](https://1drv.ms/i/c/3caa0aa167fc94a7/EdkZx8mcUj5NnUQQmJZLE3sBIZEY23_d2Wk1CALVLd9CSQ?e=caJ3br)
 
-### 🔹Passenger Count by Class
-[Passenger Count](https://1drv.ms/i/c/3caa0aa167fc94a7/ERbYsLJrJo5EolqCRLq93ygBHHXmK40p7IY2-CdlwNnInw?e=IGI9ja)
-
-### 🔹 Survival Rate
-1. [Gender](https://1drv.ms/i/c/3caa0aa167fc94a7/EZ-gXFnSB2JPvhEWZ3_wdAEBKJ3xlAWV99RjlY_vX9GY9g?e=MdAmKM)
-2. [Passenger Class](https://1drv.ms/i/c/3caa0aa167fc94a7/EWTndUrnKjdOtCWQECmVhBUBliOlUD9Zbnx37-D3bh9CVQ?e=ecfa0k)
-3. [Class and Gender](https://1drv.ms/i/c/3caa0aa167fc94a7/Ealo8r70bwtBlqd3HyGRjBIBiY85cT4z5MpUUTIALeHitw?e=YVjwUv)
-
-### 🔹 Correlation Heatmap
-[Correlation Heatmap](https://1drv.ms/i/c/3caa0aa167fc94a7/EZwEzQpO7-lLtYicqDsjpvABOnLJUMZb1dhCrRvShZBWpA?e=bAAGzK)
+### 🔹Sentiment Distribution
+[Sentiment Distribution](https://1drv.ms/i/c/3caa0aa167fc94a7/Ef0U-zJW82ZOpuojzxZ94fgBNrx8nn_Q9FshdWpwKg0tQg?e=dzExrS)
 
 ---
 
 ## Insights
-- Most passengers were in 3rd class.
-- Survival rate was higher for females than males.
-- Younger passengers had slightly higher survival rate.
-- Fare and class are positively correlated (higher class, higher fare).
+- Majority of tweets were **positive**, showing a favorable opinion about the topic.  
+- Negative tweets used stronger emotional words compared to neutral or positive tweets.  
+- Word cloud analysis highlighted recurring themes in both positive and negative sentiments.  
+- Sentiment distribution helps in understanding overall **public mood**.
 
 ---
