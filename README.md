@@ -1,6 +1,6 @@
 # PRODIGY_DS_04
 
-This project analyzes a synthetic dataset of road accidents to uncover patterns and trends. The dataset includes variables such as hour of the day, weather conditions, road conditions, and accident severity.
+This task analyzes recent social media posts to understand public opinion on a specific topic or brand. The data is cleaned, explored, and classified into positive, negative, or neutral sentiments. Insights from the analysis help identify trends, user attitudes, and key discussion themes.
 
 # Task-4: Sentiment Analysis on Social Media Data
 
