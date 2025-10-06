@@ -1,5 +1,7 @@
 # PRODIGY_DS_04
 
+This project analyzes a synthetic dataset of road accidents to uncover patterns and trends. The dataset includes variables such as hour of the day, weather conditions, road conditions, and accident severity.
+
 # Task-4: Sentiment Analysis on Social Media Data
 
 ## Project Description
